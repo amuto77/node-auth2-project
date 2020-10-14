@@ -9,7 +9,7 @@ server.use(express.json())
 
 const port = 5000
 
-server.listen(PORT, ()=>{
+server.listen(port, ()=>{
     console.log(`Server is listing on ${port}`)
 })
 
